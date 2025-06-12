@@ -1,0 +1,49 @@
+.portfolio{
+    padding-top: 6.5rem;
+}
+
+.portfolio h2{
+    color: rgb(44, 62, 80);
+}
+
+.portfolio .line{
+    background-color: rgb(44, 62, 80);
+}
+
+.line-container i{
+    color: rgb(44, 62, 80);
+}
+
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.item:hover .layer{
+    opacity: 1;
+}
+
+.layer i{
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+.light-box{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    background-color: rgba(13, 110, 253, 0.25);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-box img{
+    width: 600px;
+}

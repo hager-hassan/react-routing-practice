@@ -1,0 +1,53 @@
+.contact{
+    padding-top: 6.25rem;
+}
+
+.contact h2{
+    color: rgb(44, 62, 80);
+}
+
+.contact .line{
+    background-color: rgb(44, 62, 80);
+}
+
+.line-container i{
+    color: rgb(44, 62, 80);
+}
+
+.contact input{
+    padding: 1rem .75rem;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 1.25rem;
+}
+
+.contact .form-control:focus{
+    border-color: transparent;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: none;
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    color: rgb(26, 188, 156);
+    position: relative;
+    left: 0;
+    bottom: -40px;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+form button{
+    background-color: rgb(26, 188, 156);
+    padding: .375rem .75rem;
+}
+
+
+@media (min-width: 768px){
+    form{
+        width: 60%;
+    }
+}
